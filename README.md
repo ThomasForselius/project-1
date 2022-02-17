@@ -1,58 +1,65 @@
-# Love Running
+# Friend Feud
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Friend Feud is a social multi event real life game where friends compete against or with eachother to gain points in every event througout the year.
+The website will act as a live results page, where current standings and coming events are displayed in chronological order. 
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+There will be a register page where you sign up and apply to comepte in one of these games. 
+Anybody can register, and as soon as you have registered, you can create your own game of events. 
+
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- Landing page ; will have a short but fun description of what the game is and how it works
+- About the game ; this page will describe what the game is and what rules are applied
+- Events ; this page will show all the planned events throughout the year, with dates, type of activity, teams or solo, location. (future bonus feature: make events "mystery event", where only date, time and location are displayed)
+- Results ; will display the current results of the current game you are a part of
+- Sign up / Login ; a new user will sign up for an account to be able to join a game, while an existing user can log in and either administrate(if they created a game), or edit an existing game they created
+
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all pages except admin page, the full responsive navigation bar includes links to the Logo, Home page, results page, events page and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- __The landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - This page introduces the visitor to a photograph of friends playing a game or racing gocarts as an example
+  - This section SHORTLY ( ca 5-10 seconds after entering page) describes what the game is about and how they sign up
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __About page__
 
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
+
+
+
+
+
+
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Events section / page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__ 
+- __Results page__ 
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __The Sign Up Page__
 
@@ -66,7 +73,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- "Mystery event" function; where the admin can check an event as mystery, so only time, location and date are displyed for extra fun factor
+- Admin page ; give people the opportunity to CRUD (create, read, update and delete) event information
+- light / dark mode
+- user page where users can upload profile picture that shows in the results list
 
 ## Testing 
 
