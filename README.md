@@ -12,7 +12,7 @@ Anybody can register, and as soon as you have registered, you can create your ow
 ## Features 
 
 - Landing page ; will have a short but fun description of what the game is and how it works
-- About the game ; this page will describe what the game is and what rules are applied
+- About the game ; this page will describe what the game is in more detail and what rules are applied
 - Events ; this page will show all the planned events throughout the year, with dates, type of activity, teams or solo, location. (future bonus feature: make events "mystery event", where only date, time and location are displayed)
 - Results ; will display the current results of the current game you are a part of
 - Sign up / Login ; a new user will sign up for an account to be able to join a game, while an existing user can log in and either administrate(if they created a game), or edit an existing game they created
@@ -22,7 +22,7 @@ Anybody can register, and as soon as you have registered, you can create your ow
 
 - __Navigation Bar__
 
-  - Featured on all pages except admin page, the full responsive navigation bar includes links to the Logo, Home page, results page, events page and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all pages except admin page(future feature), the full responsive navigation bar includes links to the Logo, Home page, results page, events page and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
@@ -31,41 +31,48 @@ Anybody can register, and as soon as you have registered, you can create your ow
 
   - This page introduces the visitor to a photograph of friends playing a game or racing gocarts as an example
   - This section SHORTLY ( ca 5-10 seconds after entering page) describes what the game is about and how they sign up
+    - Selling point nr 1 - get their attention
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __About page__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - More detail regarding what the game is about, how many players, what type of activities, counting points
+  - The user will get to see reasons they also should sign up for the friend feud. 
+    - Note: this is selling point nr 2 - keep and increase their attention
 
-
-
-
-
-
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
 - __Events section / page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will allow the user to see exactly when the events will happen, where they will be located and what they will be. 
+  - "red thread swirling downward, left to right and vice versa with a card for each event
+    - onClick : will pop up a larger version of that eventcard with more details
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Events page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __Results page__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - This page will show the current (and past) results, wins and losses. 
+  - One main card will display the total score so far in the whole game
+  - separate cards will display the top 3 scores of each individual event
+    - onClick : will pop up more detailed info about that event i.e.  all contestants and their scores
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Results](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
+  - This page will allow the user to either register or log in to the webpage. 
+  - When they register they will have to provide First name (required), last name (optional) email (required) and password (required).
+  - when they login they can edit their email, password and name. Also they can choose to delete their account from the site
+  - Future feature: log in as admin to CRUD an event
+ 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+
+
+
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -114,23 +121,28 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
+<!-- 
+
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
+--> 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
+- The readme file was copied from CodeInstitute's template for the first project in their 5p front-end dev course
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- CSS validation was done by using the following website: 
+- HTML validation was done by using the following website: 
+- Responsive validation was done by using the following website: [Am I responsive](http://ami.responsivedesign.is/)
+- The icons on the page were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+<!-- 
 
 ## Other General Project Advice
 
@@ -146,3 +158,5 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
   - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+
+-->
