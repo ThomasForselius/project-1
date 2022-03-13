@@ -1,12 +1,13 @@
 # Friend Feud
 
 Friend Feud is a social multi-event real life game where friends compete against, or with eachother to gain points in every event througout the year.
+
 The website will act as the main informative hub for the game, with a live results page, about page with information about the game and a sign-up page where you can join. 
 
 The idea behind the game is to target a very wide audience, to appeal to as many people as possible. 
 Events will be of varying character, from both physical to intellectual, so as many people as possible can, and most inportantly feel the possibility to participate. 
 
-There will be a register page where you sign up and apply to comepte in one of these games. 
+There will be a register page where you sign up and apply to comepete in one of these games. 
 Anybody can register, and as soon as you have registered, you can create your own game of events. 
 
 
@@ -49,8 +50,6 @@ Anybody can register, and as soon as you have registered, you can create your ow
 - __Events section / page__
 
   - This section will allow the user to see exactly when the events will happen, where they will be located and what they will be. 
-  - "red thread swirling downward, left to right and vice versa with a card for each event
-    - onClick : will pop up a larger version of that eventcard with more details
 
 ![Events page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
@@ -58,8 +57,6 @@ Anybody can register, and as soon as you have registered, you can create your ow
 
   - This page will show the current (and past) results, wins and losses. 
   - One main card will display the total score so far in the whole game
-  - separate cards will display the top 3 scores of each individual event
-    - onClick : will pop up more detailed info about that event i.e.  all contestants and their scores
 
 ![Results](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
@@ -77,6 +74,9 @@ Anybody can register, and as soon as you have registered, you can create your ow
 
 
 
+
+
+
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -87,6 +87,12 @@ In addition, you may also use this section to discuss plans for additional featu
 - Admin page ; give people the opportunity to CRUD (create, read, update and delete) event information
 - light / dark mode
 - user page where users can upload profile picture that shows in the results list
+- Events
+    - red thread swirling downward, left to right and vice versa with a card for each event
+      - onClick : will pop up a larger version of that eventcard with more details
+    - separate cards will display the top 3 scores of each individual event
+      - onClick : will pop up more detailed info about that event i.e.  all contestants and their scores
+
 
 ## Testing 
 
