@@ -1,13 +1,16 @@
 # Friend Feud
 
-Friend Feud is a social multi event real life game where friends compete against or with eachother to gain points in every event througout the year.
-The website will act as a live results page, where current standings and coming events are displayed in chronological order. 
+Friend Feud is a social multi-event real life game where friends compete against, or with eachother to gain points in every event througout the year.
+The website will act as the main informative hub for the game, with a live results page, about page with information about the game and a sign-up page where you can join. 
+
+The idea behind the game is to target a very wide audience, to appeal to as many people as possible. 
+Events will be of varying character, from both physical to intellectual, so as many people as possible can, and most inportantly feel the possibility to participate. 
 
 There will be a register page where you sign up and apply to comepte in one of these games. 
 Anybody can register, and as soon as you have registered, you can create your own game of events. 
 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
