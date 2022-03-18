@@ -4,7 +4,7 @@ body {
     background-color: #369;
     padding: 0;
     font-family:'Italiana', 'Times New Roman', Times, serif;
-    background-image: url('https://pixabay.com/get/g5a38af1866f2189a65bc662d98b63ab6aa5fe7bbed50f0950c7987c5a19d11682d6132755efc01834eea191cf30ea167ba3f5249364fe7a59d3f1a16d0e4c25cd4c2e93cebb2a65dcc3d764c33eee5d9_1920.jpg');
+    background-image: url('../images/bg.jpg');
     background-position:top center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -22,21 +22,18 @@ body {
     text-align: center;
     border: 1px solid #fff;
     border-radius: 50px;
-    /* background: rgba(255, 255, 255, 0.1); */
 }
 
 .nav-container a{
 
     color: #fff;
-    /* text-transform: uppercase; */
     font-weight: bold;
     text-decoration: none;
     letter-spacing: 1px;
     margin: 20px;
 }
 
-
-/* Styling and position of logo / hero image */
+/* Styling and position of logo or hero image */
 
 .hero-container {
     margin-top: 120px;
