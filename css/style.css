@@ -80,6 +80,8 @@ hr {
     
 }
 
+/* Styling of register form */
+
 .register-container {
 
     width: 300px;
@@ -104,8 +106,13 @@ hr {
     text-align: center;
 }
 
-.input:hover{
+.input:hover{ 
+    
+    /* Fade effect on red border */
+    
     border: 1px solid red;
+    transition:ease-in-out;
+    transition-duration: 0.3s;
 }
 
 .input:focus{
@@ -124,7 +131,7 @@ hr {
 }
 
 ::placeholder ,::-webkit-input-placeholder{
-    color: #;
+    color: #888;
 }
 
 
@@ -142,27 +149,44 @@ hr {
         margin: 20px auto;
         padding: 10px 0;
         width: 90vw;
-
     }
 
     .nav-container a{
         font-size: 0.8em;
         margin: 0 10px;
-    
     }
 
     .hero-container{
-        margin: 50px 0 0 0;
+        margin: 75px auto;
         width: 90vw;
-        background-color: aquamarine;
     }
 
     .hero-h2 {
-        font-size: 0.8em;
+        font-size: 1em;
         text-align: center;
     }
 
     hr{
         display: none;
     }
+}
+
+
+/* Responsive design for mobile devices */
+
+@media screen and (max-width: 440px){
+
+    .nav-container{
+        text-align: center;
+        margin: 20px auto;
+        padding: 5px 0;
+        width: 90vw;
+    }
+
+    .nav-container a{
+        font-size: 0.7em;
+        margin: 0 3px;
+    }
+
+
 }
