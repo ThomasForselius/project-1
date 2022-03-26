@@ -217,14 +217,13 @@ hr {
         z-index: 10; /* Positions menu above content */
         backdrop-filter: blur(7px); /* Makes background blurry for better contrast */
         top: 0;
-        padding: 5px;
+        padding: 10px 0;
         width: 100%;
         margin: 0 auto;
         border: none;
         text-align: center;
         border-radius: 0;
-        background-color: rgba(0, 0, 0, 0.3);
-
+        background-color: rgba(0, 0, 0, 0.4);
     }
 
     #mobile-nav #mobile-menu, #mobile-checkbox{
