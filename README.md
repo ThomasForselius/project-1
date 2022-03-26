@@ -130,6 +130,12 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
+
+- Credit for pop-down menu when on mobile device goes to https://isabelcastillo.com/pure-css-mobile-toggle-menu
+
+
+
+
 <!-- 
 
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 body {
     background-color: #369;
     padding: 0;
@@ -31,6 +31,12 @@ body {
     text-decoration: none;
     letter-spacing: 1px;
     margin: 20px;
+}
+
+/* Hides the navbar when browsing on tablet or desktop */
+
+.nav-container-mobile{
+    display: none;
 }
 
 /* Styling and position of logo or hero image */
@@ -176,17 +182,56 @@ hr {
 
 @media screen and (max-width: 440px){
 
+
+    /* Hides tablet and desktop nav menu */
     .nav-container{
+        display: none;
+    }
+
+
+    /* Styling mobile menu */
+
+    #menu-button {
+        font-size: 1.5em;
+    }
+
+    #mobile-nav{
+        display: block;
+        position: fixed; /* Makes the mobile menu sticky */
+        z-index: 10; /* Positions menu above content */
+        backdrop-filter: blur(7px); /* Makes background blurry for better contrast */
+        top: 0;
+        padding: 5px;
+        width: 100%;
+        margin: 0 auto;
+        border: none;
         text-align: center;
-        margin: 20px auto;
-        padding: 5px 0;
-        width: 90vw;
+        border-radius: 0;
+        background-color: rgba(0, 0, 0, 0.3);
     }
 
-    .nav-container a{
-        font-size: 0.7em;
-        margin: 0 3px;
+    #mobile-nav #mobile-menu, #mobile-checkbox{
+        display: none;
     }
 
+    #mobile-checkbox:checked + #mobile-menu{
+        display: block;
+        clear: both;
+        position: relative;
+    }
+
+    #mobile-menu{
+        padding: 20px 0;
+        font-size: 1em;
+    }
+
+    #mobile-menu li{
+        /* display: block; */
+        padding: 10px 0;
+    }
+
+    #mobile-menu a{
+        color: #fff;
+    }
 
 }
