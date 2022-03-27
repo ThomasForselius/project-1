@@ -14,6 +14,12 @@ body {
 a {
     color: #fff;
 }
+
+.head {
+    font-size: 1.3em;
+    text-decoration: underline;
+}
+
 /* Navigation styling */
 
 .nav-container {
@@ -49,7 +55,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     text-align: center;
 }
 
@@ -92,6 +98,17 @@ hr {
 
 .join-button:hover{
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-content-container {
+    width: 900px;
+    text-align: left;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    background-color: #fff;
+    color: #000;
+    padding: 50px;
+    margin: 50px auto;
 }
 
 /* Styling of register form */
@@ -166,7 +183,6 @@ hr {
         text-align: center;
         margin: 20px auto;
         padding: 10px 0;
-        width: 90vw;
     }
 
     .nav-container a{
@@ -191,23 +207,41 @@ hr {
     #mobile-nav {
         display: none;
     }
+
+    .main-content-container{
+        width: 100vw;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .main-content-container > article {
+        width: 90vw;
+        margin: 20px auto;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
 }
 
 
-/* Responsive design for mobile devices */
+/* Responsive design for mobile devices of max 440px width */
 
 @media screen and (max-width: 440px){
 
 
     .hero-h1 { 
         font-size: 3em;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 5px;
+        text-decoration-style: wavy;
     }
 
     .hero-container{
         margin-top: 150px;
     }
 
-    /* Hides tablet and desktop nav menu */
+    /* Hides tablet and desktop nav menu when on mobile dev */
+    
     .nav-container{
         display: none;
     }
@@ -234,9 +268,13 @@ hr {
         background-color: rgba(0, 0, 0, 0.4);
     }
 
+    /* Hides mobile menu until 'Menu' is klicked  */
+    
     #mobile-nav #mobile-menu, #mobile-checkbox{
         display: none;
     }
+
+    /* Displays menu when 'Menu' is klicked */
 
     #mobile-checkbox:checked + #mobile-menu{
         display: block;
@@ -250,7 +288,7 @@ hr {
     }
 
     #mobile-menu li{
-        /* display: block; */
+        display: block;
         padding: 10px 0;
     }
 
@@ -258,8 +296,24 @@ hr {
         color: #fff;
     }
 
-
     .register-container{ 
         width: 70vw;
+    }
+
+    .main-content-container {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-content-container > article {
+        width: 80vw;
+        padding: 30px;
+        margin-bottom: -10px;
+    }
+
+    .head {
+        font-size: 1.3em;
+        text-decoration: underline;
     }
 }
