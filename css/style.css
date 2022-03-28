@@ -191,10 +191,10 @@ hr {
     }
 
     .nav-container{
-        width: 80vw;
+        width: 90vw;
         text-align: center;
         margin: 20px auto;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     .nav-container a{
