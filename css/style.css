@@ -34,6 +34,7 @@ a {
 .head {
     font-size: 1.3em;
     text-decoration: underline;
+    margin: 0;
 }
 
 /* Navigation styling */
@@ -317,13 +318,7 @@ hr {
     .main-content-container {
         width: 100vw;
         margin: 0;
-        padding: 0;
-    }
-
-    .main-content-container > article {
-        width: 80vw;
-        padding: 30px;
-        margin-bottom: -10px;
+        padding: 10px;
     }
 
     .head {
