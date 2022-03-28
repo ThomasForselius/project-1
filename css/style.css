@@ -1,4 +1,16 @@
 
+/* Index of css file: 
+
+- basic styling
+- navigation styling for desktop and ipad
+- styling of the hero text and join-button
+- register form and submit button
+- responsive media query for tablet
+- responsive media query for mobile devices
+
+*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 body {
     background-color: #369;
@@ -42,7 +54,7 @@ a {
     margin: 20px;
 }
 
-/* Hides the navbar when browsing on tablet or desktop */
+/* Hides the navbar for mobile devices when browsing on tablet or desktop */
 
 .nav-container-mobile{
     display: none;
