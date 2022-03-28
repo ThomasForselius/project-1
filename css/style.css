@@ -67,7 +67,6 @@ a {
 /* Styling and position of logo or hero image */
 
 .hero-container {
-    background-color: aquamarine;
     margin: 50px auto 0 auto;
     text-align: center;
 }
@@ -223,8 +222,9 @@ hr {
 
     .main-content-container{
         width: 100vw;
-        margin: 0;
-        padding: 0;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 20px;
         padding-bottom: 10px;
     }
 
