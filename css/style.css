@@ -96,7 +96,6 @@ hr {
 .join-button {
     width: 200px;
     font-family:'Italiana', 'Times New Roman', Times, serif;
-    font-style: bold;
     font-size: 1.1em;
     text-decoration: none;
     color: #fff;
@@ -174,7 +173,7 @@ hr {
     text-align: center;
 }
 
-::placeholder ,::-webkit-input-placeholder{
+::placeholder{
     color: #888;
 }
 
