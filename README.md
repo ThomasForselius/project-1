@@ -1,25 +1,56 @@
-# Friend Feud
+# FriendFeud - project documentation
 
-Friend Feud is a social multi-event real life game where friends compete against, or with eachother to gain points in every event througout the year.
+This is the README.md descriptive file of the project FriendFeud;
+an original web project from Thomas Forselius, studying font-end webdevelopement at CodeInstitute. 
 
-The website will act as the main informative hub for the game, with a live results page, about page with information about the game and a sign-up page where you can join. 
+# Table of Contents
 
-The idea behind the game is to target a very wide audience, to appeal to as many people as possible. 
-Events will be of varying character, from both physical to intellectual, so as many people as possible can, and most inportantly feel the possibility to participate. 
+>1. [What is it?](#what-is-it)
+>2. [UX Design and wireframe mockup](#ux-design)
+>3. [](#)
+>4. [](#)
+>5. [](#)
+>6. [](#)
 
-There will be a register page where you sign up and apply to comepete in one of these games. 
-Anybody can register, and as soon as you have registered, you can create your own game of events. 
 
+# What is it?
+
+* Friend Feud is a social multi-event real life game where friends compete against, or with eachother to gain points in every event througout the year.
+* The website will act as the main informative hub for the game, with a live results page(future feature using js), about page with information about the game and a sign-up page where you can join. 
+* The idea behind the game is to target a very wide audience, to appeal to as many people as possible. 
+Events will be of varying character, from both physical to intellectual, so as many people as possible can, and most importantly feel the possibility to participate. 
+
+
+# UX Design
+
+## Responsive mockup of the webpage
 
 ![Responsive Mockup](https://thomasforselius.github.io/project-1/responsive.png)
 
-## Features 
+* On of the most important features of webpages today is being responsive, since the largest amount of people view webpages on their mobile devices. Responsive websites are a must, if your goal is the keep the interest of the visitor
+* My idea when creating this page is that I wanted to simple and esthetically pleasing design without too much flashy functions and design elements that draw attention away from the original idea and purpose. 
+* The basic design was done in Figma - a free, easy to use online wireframing tool
+* Colors used are simple - I wanted to keep it simple with a high contrast for maximum accessibility; 
+    - Black text on white background - for main text 
+    - White text on dark background - for menu and hero header text
+* The background I chose is a group of people gathered in the sunrise/sunset to give a friendly sense of sharing fun events with friends. This background image cought my eye due to the very subtle nature of it; there's nothing distracting about the image so you concentrate on the webpage itself, but still get a sense of context for the background
+* The background image works well as a full page background that isn't too distracting, and works well on responsive media.
 
-- Landing page ; will have a short but fun description of what the game is and how it works
-- About the game ; this page will describe what the game is in more detail and what rules are applied
+
+
+
+# Features 
+
+## Existing features 
+
+
+* Landing page ; will have a short but fun description of what the game is and how it works
+* About the game ; this page will describe what the game is in more detail and what rules are applied
 - Events ; this page will show all the planned events throughout the year, with dates, type of activity, teams or solo, location. (future bonus feature: make events "mystery event", where only date, time and location are displayed)
 - Results ; will display the current results of the current game you are a part of
 - Sign up / Login ; a new user will sign up for an account to be able to join a game, while an existing user can log in and either administrate(if they created a game), or edit an existing game they created
+
+* Slight interest boosting functions are used; like fading bakground color on "join-button" and fading border color of input elements of the register form, to keep people's intrest in simple ways.
 
 
 ### Existing Features
@@ -65,13 +96,16 @@ Anybody can register, and as soon as you have registered, you can create your ow
   - This page will allow the user to either register or log in to the webpage. 
   - When they register they will have to provide First name (required), last name (optional) email (required) and password (required).
   - when they login they can edit their email, password and name. Also they can choose to delete their account from the site
-  - Future feature: log in as admin to CRUD an event
  
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 
 
+# Future features
 
+* There will be a register page where you sign up and apply to comepete in one of these games. 
+Anybody can register, and as soon as you have registered, you can create your own game of events. 
+* Future feature: log in as admin to CRUD(create, read, update, delete) an event
 
 
 
@@ -162,16 +196,5 @@ You can break the credits section up into Content and Media, depending on what y
 ## Other General Project Advice
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 -->
