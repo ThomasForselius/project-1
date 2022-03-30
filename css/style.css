@@ -16,7 +16,7 @@ Index of css file:
 /* Import custom font */ 
 
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 
 body {
     background-color: #151515;
@@ -116,13 +116,14 @@ hr {
 .main-content-container {
     width: 900px;
     text-align: left;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 1px;
     background-color: #fff;
     color: #000;
     padding: 50px;
     margin: 50px auto;
     padding-bottom: 30px;
+    font-family:'Manrope', 'Times New Roman', Times, serif;
 }
 
 /* Styling of register form */
