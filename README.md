@@ -169,7 +169,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
       Cost
       Location and directions how to get there
 
-![Events page](https://thomasforselius.github.io/project-1/images/events_splash.png)
+![Events page](https://thomasforselius.github.io/project-1/images/event_card_mockup.png)
 
 * Results ; displays the current standings of the active game you are participating in. 
     At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
