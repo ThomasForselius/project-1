@@ -187,17 +187,17 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
     There will be a register page where you sign up and apply to comepete in one of these games. 
     Anybody can register, and as soon as you have registered, you can create your own game of events. 
     * At the moment this is just a mockup since the I don't know the required tech
-      _Required tech for full funcitonality: Javascript and database knowledge_
+    >_Required tech for full funcitonality: Javascript and database knowledge_
 * Log in as admin to CRUD(create, read, update, delete) an event and edit scores
-      _Required tech for full funcitonality: Javascript and database knowledge_
+    >_Required tech for full funcitonality: Javascript and database knowledge_
 * User page - where users can upload profile picture that shows in the results list
-      _Required tech for full funcitonality: Javascript and database knowledge_
+    >_Required tech for full funcitonality: Javascript and database knowledge_
 * Bonus feature: make events "mystery event", where only date, time and location are displayed
-      _Required tech for full funcitonality: Javascript and database knowledge_
+    >_Required tech for full funcitonality: Javascript and database knowledge_
 * Live results - will display the current results of the current game you are a part of when logged in
-      _Required tech for full funcitonality: Javascript and database knowledge_
+    >_Required tech for full funcitonality: Javascript and database knowledge_
 * Light / dark mode
-      _Required tech for full funcitonality: deeper CSS knowledge_
+    >_Required tech for full funcitonality: deeper CSS knowledge_
 
 * Events page;
   * Design ideas for events page with cards
@@ -206,7 +206,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
     * separate cards will display the top 3 scores of each individual event
       * onClick : will pop up more detailed info about that event i.e.  all contestants and their scores
 
-  _Required tech for full funcitonality: Javascript and database knowledge_
+  >_Required tech for full funcitonality: Javascript and database knowledge_
 
 
 
@@ -234,7 +234,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 * GitHub
   * this is where the source code and images is stored online - also called a repository.
     The live page uses the main branch in the Github repository. 
-    _All coming updates will each be using a separate branch for a function, to ensure easy updating and version control_
+    >_All coming updates will each be using a separate branch for a function, to ensure easy updating and version control_
 
 
 # Testing 
