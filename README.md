@@ -97,7 +97,8 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 ## _Mobile version_
 
 ![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/images/menu_mobile.png)
-![Nav Bar mobile - open](https://thomasforselius.github.io/project-1/images/menu_mobile_active.png)
+
+![Nav Bar mobile - open when clicked](https://thomasforselius.github.io/project-1/images/menu_mobile_active.png)
 
 
 ## Links 
@@ -106,21 +107,19 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
   They are always available on all pages to increas the easy of use when moving around on the page. 
 
   * Home
-      This is the first page the user sees when visiting the page;
+      - This is the first page the user sees when visiting the page;
       It has a very short but informative description of what the game is and how it works.
       also has a call to action in the form of a button that takes the user to the page where they can register for the game. 
-  * What is it? ; this page describes what the game is in more detail like rules and a brief history of how   
-      the game came about. 
-  * Events ; shows all the planned events throughout the year.
-      Each event will have a card with the following information: 
+  * What is it? 
+      - this page describes what the game is in more detail like rules and a brief history of how the game came about. 
+  * Events
+      - shows all the planned events throughout the year. Each event will have a card with the following information: 
         Date, type of activity, team event or solo, location and directions how to get there
-  * Results ; displays the current standings of the active game you are participating in. 
-      At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
+  * Results 
+      - Displays the current standings of the active game you are participating in. At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
       There is a graphical mockup of what the leader board may look like when it launches
-  * Sign up / Login _note: this is a future feature due to the need for database and javascript knowledge which I do  
-      not have right now
-      A new user will sign up for an account to be able to join a game.
-      Existing user/s can log in and either administrate(if they created a game), or edit an existing game they created
+  * Sign up / Login _note 
+      - This is a future feature due to the need for database and javascript knowledge which I do not have right now
 
 
 ## Pages
