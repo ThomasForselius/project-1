@@ -7,8 +7,8 @@ an original web project from Thomas Forselius, studying font-end webdevelopement
 
 >1. [What is FriendFeud?](#what-is-it)
 >2. [UX Design and wireframe mockup](#ux-design)
-  - [Typography](#typography)
-  - [Color Scheme](#color-scheme)
+  >- [Typography](#typography)
+  >- [Color Scheme](#color-scheme)
 >3. [Existing Features](#features)
 >4. [Future Features](#future-features)
 >5. [Technologies](#technologies)
