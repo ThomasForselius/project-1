@@ -3,6 +3,9 @@
 This is the README.md descriptive file of the project FriendFeud;
 an original web project from Thomas Forselius, studying font-end webdevelopement at CodeInstitute. 
 
+The homepage can be found on the following link: [FriendFeud](http://www.friendfeud.se)
+
+
 # Table of Contents
 
 >1. [What is FriendFeud?](#what-is-it)
@@ -264,6 +267,7 @@ My testing procedure is conducted on the live Github repository using the follow
     * Mobile version on screen size between 220px - 440px
       * No further testing required on smaller screen sizes since no current devices use such small resolutions. 
         Well; that would be a smart watch, but that's just madness, if it's even possible. 
+    * Responsive design also tested with http://ami.responsivedesign.is
 
 ### Validator Testing 
 
@@ -273,29 +277,37 @@ My testing procedure is conducted on the live Github repository using the follow
   * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthomasforselius.github.io%2Fproject-1%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 * Accessibility via Lighthouse extension
   [Lighthouse](https://thomasforselius.github.io/project-1/images/lighthouse_validator.png)
+* Responsive validation was done by using the following website: [Am I responsive](http://ami.responsivedesign.is/)
 
 ### Unfixed Bugs
 
 Known bugs: 
   * Drop down menu doesn't close on mobile screens when using Safari
+  * www.kompiskampen.se is bought, but not yet linked to the github page
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+* The site was deployed to GitHub pages through VS Code commit and push commands. The steps to deploy are as follows: 
+  * In the GitHub repository, navigate to the Settings tab 
+  * From the source section drop-down menu, select the Master Branch
+  * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://thomasforselius.github.io/project-1/
+The live github link can be found here - https://thomasforselius.github.io/project-1/
+Also, the following domains have been bought: 
+  * www.frienfeud.se (working domain name)
+  * www.kompiskampen.se (not working at the moment)
 
 
 ## Credits 
 
 
-- Credit for pop-down menu when on mobile device goes to https://isabelcastillo.com/pure-css-mobile-toggle-menu
-All other 
+* Credit for pop-down menu when on mobile device goes to https://isabelcastillo.com/pure-css-mobile-toggle-menu
+
+
+## Media
+
+* Background image is taken from www.pixabay.com - a page with royalty free images for commercial use without attribution
+https://pixabay.com/photos/people-friends-together-happy-kid-4050698/
 
 
 ### Content 
@@ -304,9 +316,4 @@ All other
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - CSS validation was done by using the following website: 
 - HTML validation was done by using the following website: 
-- Responsive validation was done by using the following website: [Am I responsive](http://ami.responsivedesign.is/)
 
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
