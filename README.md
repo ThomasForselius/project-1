@@ -175,7 +175,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
     At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
     There is a graphical mockup of what the leader board may look like when it launches
 
-![Results](https://thomasforselius.github.io/project-1/images/results_splash.png)
+![Results](https://thomasforselius.github.io/project-1/images/leaderboard_splash.png)
 
 * Sign up / Login _note: this is a future feature due to the need for database and javascript knowledge which I do  
     not have right now
