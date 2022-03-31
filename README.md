@@ -71,6 +71,10 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
     The reason I chose black text color for these is because of the white background for the main information, so the black makes for great contrast
 
   * Other color features: 
+    - Mobile device responsive drop down menu has a blurred black background. 
+    The reason for this is mostly to 'spice' up the design in a very simple yet intresting way, in contrast to most other mobile menus which are a plain color with no transparency. 
+    
+    _It's a rich feature with a low price tag_
     - Fading in dark background on the call to action button on the first page. 
     The first reason for this is to make a simple but intresting design feature to keep the user intrested and get a slightly 'alive' feel of the page. 
     The second reason is that I wanted to try something new that I haven't tried, and I fel that this effect would suit the page perfectly due to it's clean nature
@@ -94,7 +98,10 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 
 ![Nav Bar Desktop](https://thomasforselius.github.io/project-1/images/menu_desktop.png)
 
-## _Mobile version_ - When clicked on 'Menu' the pop-down menu will appear with blurred background
+## _Mobile version_ 
+  - When clicked on 'Menu' the pop-down menu will appear with blurred background
+  - This menu has the attribute 'Sticky' , so it is always at thte top of the screen
+
 
 ![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/images/menu_mobile.png)
 
@@ -128,7 +135,8 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
   This is the first page the user sees when visiting the page;
   It has a very short but informative description of what the game is and how it works.
   also has a call to action in the form of a button that takes the user to the page where they can register for the game. 
-  This section SHORTLY ( ca 5-10 seconds after entering page) describes what the game is about and how they sign up; this is where the call to action button is on the first page 
+  This section SHORTLY ( ca 5-10 seconds after entering page) describes what the game is about and how they sign up; this is where the call to action button is on the first page
+
   _Selling point - get their attention. by writing a small but intresting bit of info about the game you keep or increase people's attention to keep them on the page_
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
