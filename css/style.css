@@ -12,8 +12,7 @@ Index of css file:
 
 */
 
-
-/* Import custom font */ 
+/* Import custom fonts */ 
 
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
@@ -91,6 +90,7 @@ a {
 hr {
     width: 680px;
     border-radius: 70%;
+    
 }
 
 #scroll {
@@ -116,7 +116,7 @@ hr {
 }
 
 .main-content-container {
-    width: 900px;
+    width: 80vw;
     text-align: left;
     font-size: 1em;
     letter-spacing: 1px;
@@ -154,9 +154,7 @@ hr {
     text-align: center;
 }
 
-.input:hover{ 
-    
-    /* Fade effect on red border */
+.input:hover{   /* Fade effect on red border */
     
     border: 1px solid red;
     transition:ease-in-out;
@@ -186,14 +184,19 @@ hr {
     display: none;
 }
 
-
-
 /* Media query for tablets / medium sized devices */
 
 @media screen and (max-width: 850px) {
 
     body {
         margin: 0;
+    }
+    
+    .main-content-container{
+        width: 100vw;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 40px;
     }
 
     .nav-container{
@@ -225,32 +228,36 @@ hr {
     }
 
     hr{
-        display: none;
+        width: 60vw;
+        min-width: 200px;
     }
 
     #mobile-nav {
         display: none;
     }
-
-    .main-content-container{
-        width: 100vw;
-        box-sizing: border-box;
-        margin: 0 auto;
-        padding: 10px;
-    }
-
 }
-
 
 /* Responsive design for mobile devices of max 440px width */
 
 @media screen and (max-width: 440px){
 
+    .register-container {
+
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        /* border-radius: 20px; */
+        border: none;
+        padding: 20px;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-align: center;
+    }
 
     .main-content-container {
         width: 100%;
         margin: 0;
-        padding: 10px;
+        margin-top: 50px;
+        padding: 20px;
     }
 
     .join-button{
@@ -260,7 +267,7 @@ hr {
 
     .hero-h1 { 
         width: 100%;
-        font-size: 3em;
+        font-size: 2em;
         text-decoration: underline;
         text-decoration-thickness: 1px;
         text-underline-offset: 5px;
@@ -268,7 +275,7 @@ hr {
     }
 
     .hero-container{
-        margin: 150px auto 0 auto;
+        margin: 100px auto 0 auto;
         align-items: center;
     }
 
@@ -277,7 +284,6 @@ hr {
     .nav-container{
         display: none;
     }
-
 
     /* Styling mobile menu */
 
