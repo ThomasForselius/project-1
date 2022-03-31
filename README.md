@@ -271,7 +271,7 @@ My testing procedure is conducted on the live Github repository using the follow
     
 
 * Last series of checks
-  * Go through HTML code and clear commented code, clear double empty lines so that no more than one empty line in a row is found. 
+  * Go through HTML code and clear commented out code, clear double empty lines so that no more than one empty line in a row is found. 
   * Check that all images appear in both the webpage and the readme.md file
 
 ### Validator Testing 
