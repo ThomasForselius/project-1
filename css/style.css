@@ -199,6 +199,12 @@ hr {
     display: none;
 }
 
+.event_card_mockup{
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
 /* Media query for tablets / medium sized devices */
 
 @media screen and (max-width: 850px) {
