@@ -103,14 +103,26 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 ![Nav Bar Desktop](https://thomasforselius.github.io/project-1/images/menu_desktop.png)
 
 ## _Mobile version_ 
-  - When clicked on 'Menu' the pop-down menu will appear with blurred background
-  - This menu has the attribute 'Sticky' , so it is always at thte top of the screen
+  * When clicked on 'Menu' the pop-down menu will appear with blurred background
+  * This menu has the attribute 'Sticky' , so it is always at thte top of the screen
 
 
 ![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/images/menu_mobile.png)
 
 ![Nav Bar mobile - open when clicked](https://thomasforselius.github.io/project-1/images/menu_mobile_active.png)
 
+
+## Footer bar
+
+* At the bottom of the page there is a sticky footer with three social media icons: 
+  * Facebook
+  * Instagram
+  * Twitter
+
+  _Note: these are not linked at the moment_
+
+
+![Footer Bar](https://thomasforselius.github.io/project-1/images/footer.png)
 
 ## Links 
 
