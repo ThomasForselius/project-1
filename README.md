@@ -26,7 +26,7 @@ Events will be of varying character, from both physical to intellectual, so as m
 
 ## Responsive mockup of the webpage
 
-![Responsive Mockup](https://thomasforselius.github.io/project-1/responsive.png)
+![Responsive Mockup](https://thomasforselius.github.io/project-1/images/responsive.png)
 
 * On of the most important features of webpages today is being responsive, since the largest amount of people view webpages on their mobile devices. Responsive websites are a must, if your goal is the keep the interest of the visitor
 * My idea when creating this page is that I wanted to simple and esthetically pleasing design without too much flashy functions and design elements that draw attention away from the original idea and purpose. 
@@ -34,11 +34,19 @@ Events will be of varying character, from both physical to intellectual, so as m
 * Colors used are simple - I wanted to keep it simple with a high contrast for maximum accessibility; 
     - Black text on white background - for main text 
     - White text on dark background - for menu and hero header text
-* The background I chose is a group of people gathered in the sunrise/sunset to give a friendly sense of sharing fun events with friends. This background image cought my eye due to the very subtle nature of it; there's nothing distracting about the image so you concentrate on the webpage itself, but still get a sense of context for the background
-* The background image works well as a full page background that isn't too distracting, and works well on responsive media.
+* The background I chose is a group of people gathered in the sunrise/sunset to give a friendly sense of sharing fun events with friends. This background image cought my eye due to the very subtle nature of it; there's nothing distracting about the image so you concentrate on the webpage itself, but still get a sense of context of friendship
+* The background image works well as a full page background that isn't too distracting, but also very well on responsive media
 * Navigation styling is done with resposiveness in mind, so the desktop and tablet version of the menus are the same. 
   The width of the menu is adaptive so it's as resposive as possible.
 
+## Links 
+
+* There are 
+  * Home
+  * What is it?
+  * Events
+  * Results
+  * Sign up / Login
 
 
 # Features 
@@ -62,14 +70,14 @@ Events will be of varying character, from both physical to intellectual, so as m
 * The links in the menu are the following: 
       * Home, What is it?, Events, Results, Sign up / Login 
 
-_##Desktop and tablet version_
+## _Desktop and tablet version_
 
-![Nav Bar Desktop](https://thomasforselius.github.io/project-1/menu_desktop.png)
+![Nav Bar Desktop](https://thomasforselius.github.io/project-1/images/menu_desktop.png)
 
-_##Mobile version_
+## _Mobile version_
 
-![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/menu_mobile.png)
-![Nav Bar mobile - open](https://thomasforselius.github.io/project-1/menu_mobile2.png)
+![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/images/menu_mobile.png)
+![Nav Bar mobile - open](https://thomasforselius.github.io/project-1/images/menu_mobile2.png)
 
 
 * The landing page
@@ -98,6 +106,7 @@ _##Mobile version_
 
   - This page will show the current (and past) results, wins and losses. 
   - One main card will display the total score so far in the whole game
+
 
 ![Results](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
