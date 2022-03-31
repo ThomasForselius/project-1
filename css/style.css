@@ -27,6 +27,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     color: #fff;
+    min-width: 220px;
 }
 
 a {
@@ -37,6 +38,7 @@ a {
     font-size: 1.3em;
     text-decoration: underline;
     margin: 0;
+
 }
 
 /* Navigation styling */
@@ -72,6 +74,7 @@ a {
 .hero-container {
     margin: 50px auto 0 auto;
     text-align: center;
+    min-width: 200px;
 }
 
 .hero-h1 {
@@ -96,7 +99,7 @@ hr {
 }
 
 .join-button {
-    width: 200px;
+    min-width: 100px;
     font-family:'Italiana', 'Times New Roman', Times, serif;
     font-size: 1.1em;
     text-decoration: none;
@@ -105,7 +108,6 @@ hr {
     border: 1px solid #fff;
     border-radius: 20px;
     padding: 10px 40px;
-    align-self: center;
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -209,6 +211,12 @@ hr {
     .hero-container{
         margin: 75px auto;
         width: 90vw;
+        padding: 0;
+    }
+
+    .hero-h1{
+        font-size: 10vw;
+        text-align: center;
     }
 
     .hero-h2 {
@@ -228,16 +236,10 @@ hr {
         width: 100vw;
         box-sizing: border-box;
         margin: 0 auto;
-        padding: 20px;
+        padding: 10px;
         padding-bottom: 10px;
     }
 
-    .main-content-container > article {
-        width: 90vw;
-        margin: 40px auto;
-        margin-left: 20px;
-        padding-top: 10px;
-    }
 }
 
 
@@ -246,20 +248,33 @@ hr {
 @media screen and (max-width: 440px){
 
 
+    .main-content-container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .join-button{
+        min-width: 100px;
+        padding: 10px 20px;
+    }
+
     .hero-h1 { 
-        width: 90vw;
+        width: 100%;
         font-size: 3em;
         text-decoration: underline;
         text-decoration-thickness: 1px;
         text-underline-offset: 5px;
+        text-align: center;
     }
 
     .hero-container{
-        margin-top: 150px;
+        margin: 150px auto 0 auto;
+        align-items: center;
     }
 
     /* Hides tablet and desktop nav menu when on mobile dev */
-    
+
     .nav-container{
         display: none;
     }
@@ -287,7 +302,7 @@ hr {
     }
 
     /* Hides mobile menu until 'Menu' is klicked  */
-    
+
     #mobile-nav #mobile-menu, #mobile-checkbox{
         display: none;
     }
@@ -316,12 +331,6 @@ hr {
 
     .register-container{ 
         width: 70vw;
-    }
-
-    .main-content-container {
-        width: 100vw;
-        margin: 0;
-        padding: 10px;
     }
 
     .head {
