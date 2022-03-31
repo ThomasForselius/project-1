@@ -139,11 +139,11 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 
   _Selling point - get their attention. by writing a small but intresting bit of info about the game you keep or increase people's attention to keep them on the page_
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page]()
 
 * What is it? ; this page describes in more detail what the game is about, how many players, what type of activities, how points are counted as well as rules and regulations
 
-![About page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About page]()
 
 * Events ; shows all the planned events throughout the year.
     Each event will have a card with the following information: 
@@ -153,13 +153,13 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
       Cost
       Location and directions how to get there
 
-![Events page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Events page]()
 
 * Results ; displays the current standings of the active game you are participating in. 
     At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
     There is a graphical mockup of what the leader board may look like when it launches
 
-![Results](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Results]()
 
 * Sign up / Login _note: this is a future feature due to the need for database and javascript knowledge which I do  
     not have right now
@@ -178,7 +178,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
     In the future, when they log in they can edit their email, password, name, upload an avatar and choose to delete their account from the site by entering password as a confirmation 
     _Required tech for full funcitonality: deeper CSS knowledge_
 
-![Sign up](https://github.com/lucyrush/readme-template/blob/master/media/signup.png)
+![Sign up]()
 
 
 ## Future features
