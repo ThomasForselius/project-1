@@ -7,10 +7,13 @@ an original web project from Thomas Forselius, studying font-end webdevelopement
 
 >1. [What is FriendFeud?](#what-is-it)
 >2. [UX Design and wireframe mockup](#ux-design)
->3. [Features](#features)
->4. [](#)
->5. [](#)
->6. [](#)
+  > * [Typography](#typography)
+  > * [Color Scheme](#color-scheme)
+>3. [Existing Features](#features)
+>4. [Future Features](#future-features)
+>5. [Technologies](#technologies)
+>6. [Testing](#testing)
+>7. [Deployment](#deployment)
 
 
 # What is it?
@@ -39,27 +42,21 @@ Events will be of varying character, from both physical to intellectual, so as m
 * Navigation styling is done with resposiveness in mind, so the desktop and tablet version of the menus are the same. 
   The width of the menu is adaptive so it's as resposive as possible.
 
-## Links 
+## Typography
 
-* There are 
-  * Home
-  * What is it?
-  * Events
-  * Results
-  * Sign up / Login
+There are only two fonts used, to keep it simple and clean. 
+  * Italiana - a serif font used for Hero text and navigation
+  ![Italiana](https://thomasforselius.github.io/project-1/images/italiana_ss.png)
+    > Link to Google fonts https://fonts.google.com/specimen/Italiana 
+  * Manrope - a sans serif font used for all other text due to it's good readability
+  ![Manrope](https://thomasforselius.github.io/project-1/images/manrope_ss.png)
+    > Link to Google fonts https://fonts.google.com/specimen/Manrope
+
+## Color Scheme
 
 
-# Features 
 
-## Existing features 
-
-* Landing page ; has a very short but informative description of what the game is and how it works
-  - also has a call to action in the form of a button that takes the user to the page where they can register for the game
-* About the game ; this page describes what the game is in more detail like rules and a brief history of how the game came about
-* Events ; shows all the planned events throughout the year, with dates, type of activity, teams or solo, location
-* Results ; displays the current standings of the active game
-* Sign up / Login ; a new user will sign up for an account to be able to join a game, while an existing user can log in and either administrate(if they created a game), or edit an existing game they created
-* Slight interest boosting functions are used; like fading bakground color on "join-button" and fading border color of input elements of the register form, to keep people's intrest in simple ways.
+# Features
 
 
 ## Navigation Bar
@@ -77,73 +74,120 @@ Events will be of varying character, from both physical to intellectual, so as m
 ## _Mobile version_
 
 ![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/images/menu_mobile.png)
-![Nav Bar mobile - open](https://thomasforselius.github.io/project-1/images/menu_mobile2.png)
+![Nav Bar mobile - open](https://thomasforselius.github.io/project-1/images/menu_mobile_active.png)
 
 
-* The landing page
+## Links 
 
-  - This page introduces the visitor to a photograph of friends playing a game or racing gocarts as an example
-  - This section SHORTLY ( ca 5-10 seconds after entering page) describes what the game is about and how they sign up
-    - Selling point nr 1 - get their attention
+* These are the links to easily navigate around the website. 
+  They are always available on all pages to increas the easy of use when moving around on the page. 
+
+  * Home
+      This is the first page the user sees when visiting the page;
+      It has a very short but informative description of what the game is and how it works.
+      also has a call to action in the form of a button that takes the user to the page where they can register for the game. 
+  * What is it? ; this page describes what the game is in more detail like rules and a brief history of how   
+      the game came about. 
+  * Events ; shows all the planned events throughout the year.
+      Each event will have a card with the following information: 
+        Date, type of activity, team event or solo, location and directions how to get there
+  * Results ; displays the current standings of the active game you are participating in. 
+      At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
+      There is a graphical mockup of what the leader board may look like when it launches
+  * Sign up / Login _note: this is a future feature due to the need for database and javascript knowledge which I do  
+      not have right now
+      A new user will sign up for an account to be able to join a game.
+      Existing user/s can log in and either administrate(if they created a game), or edit an existing game they created
+
+
+## Pages
+
+* The landing page / Home
+  This is the first page the user sees when visiting the page;
+  It has a very short but informative description of what the game is and how it works.
+  also has a call to action in the form of a button that takes the user to the page where they can register for the game. 
+  This section SHORTLY ( ca 5-10 seconds after entering page) describes what the game is about and how they sign up; this is where the call to action button is on the first page 
+  _Selling point - get their attention. by writing a small but intresting bit of info about the game you keep or increase people's attention to keep them on the page_
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __About page__
-
-  - More detail regarding what the game is about, how many players, what type of activities, counting points
-  - The user will get to see reasons they also should sign up for the friend feud. 
-    - Note: this is selling point nr 2 - keep and increase their attention
+* What is it? ; this page describes in more detail what the game is about, how many players, what type of activities, how points are counted as well as rules and regulations
 
 ![About page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Events section / page__
-
-  - This section will allow the user to see exactly when the events will happen, where they will be located and what they will be. 
+* Events ; shows all the planned events throughout the year.
+    Each event will have a card with the following information: 
+      Date
+      Type of activity
+      Team event or solo
+      Cost
+      Location and directions how to get there
 
 ![Events page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __Results page__ 
-
-  - This page will show the current (and past) results, wins and losses. 
-  - One main card will display the total score so far in the whole game
-
+* Results ; displays the current standings of the active game you are participating in. 
+    At the moment this feature is a work in progress since it will be utilizing javascript and a database, which are outside of my knowledge as of today. 
+    There is a graphical mockup of what the leader board may look like when it launches
 
 ![Results](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __The Sign Up Page__
+* Sign up / Login _note: this is a future feature due to the need for database and javascript knowledge which I do  
+    not have right now
+    A new user will sign up for an account to be able to join a game.
+    Existing user/s can log in and either administrate(if they created a game), or edit an existing game they created
 
-  - This page will allow the user to either register or log in to the webpage. 
-  - When they register they will have to provide First name (required), last name (optional) email (required) and password (required).
-  - when they login they can edit their email, password and name. Also they can choose to delete their account from the site
- 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+    _At the moment, when you fill out the register form_
 
+    This page will allow the user to either register or log in to the webpage. 
+    When they register they will have to provide the following information: 
+      First name (required)
+      Last name (Required)
+      Email (required)
+      Password (required)
+
+    In the future, when they log in they can edit their email, password, name, upload an avatar and choose to delete their account from the site by entering password as a confirmation 
+    _Required tech for full funcitonality: deeper CSS knowledge_
+
+![Sign up](https://github.com/lucyrush/readme-template/blob/master/media/signup.png)
 
 
 ## Future features
 
-* There will be a register page where you sign up and apply to comepete in one of these games. 
-Anybody can register, and as soon as you have registered, you can create your own game of events. 
+* Sign up page; 
+    There will be a register page where you sign up and apply to comepete in one of these games. 
+    Anybody can register, and as soon as you have registered, you can create your own game of events. 
+    * At the moment this is just a mockup since the I don't know the required tech
+      _Required tech for full funcitonality: Javascript and database knowledge_
 * Log in as admin to CRUD(create, read, update, delete) an event and edit scores
+      _Required tech for full funcitonality: Javascript and database knowledge_
 * User page - where users can upload profile picture that shows in the results list
+      _Required tech for full funcitonality: Javascript and database knowledge_
 * Bonus feature: make events "mystery event", where only date, time and location are displayed
+      _Required tech for full funcitonality: Javascript and database knowledge_
 * Live results - will display the current results of the current game you are a part of when logged in
+      _Required tech for full funcitonality: Javascript and database knowledge_
 * Light / dark mode
+      _Required tech for full funcitonality: deeper CSS knowledge_
 
-* _Events_
+* Events page;
   * Design ideas for events page with cards
     * red thread swirling downward, left to right and vice versa with a card for each event
       * onClick : will pop up a larger version of that eventcard with more details
     * separate cards will display the top 3 scores of each individual event
       * onClick : will pop up more detailed info about that event i.e.  all contestants and their scores
 
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  _Required tech for full funcitonality: Javascript and database knowledge_
 
 
 
-## Testing 
+# Technologies
+
+
+
+
+
+# Testing 
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -181,7 +225,7 @@ The live link can be found here - https://thomasforselius.github.io/project-1/
 
 
 - Credit for pop-down menu when on mobile device goes to https://isabelcastillo.com/pure-css-mobile-toggle-menu
-
+All other 
 
 
 
@@ -199,17 +243,8 @@ You can break the credits section up into Content and Media, depending on what y
 - CSS validation was done by using the following website: 
 - HTML validation was done by using the following website: 
 - Responsive validation was done by using the following website: [Am I responsive](http://ami.responsivedesign.is/)
-- The icons on the page were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The photos used on the home and sign up page are from This Open Source site
 - The images used for the gallery page were taken from this other open source site
-
-<!-- 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
--->
