@@ -94,7 +94,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 
 ![Nav Bar Desktop](https://thomasforselius.github.io/project-1/images/menu_desktop.png)
 
-## _Mobile version_
+## _Mobile version_ - When clicked on 'Menu' the pop-down menu will appear with blurred background
 
 ![Nav Bar mobile - closed](https://thomasforselius.github.io/project-1/images/menu_mobile.png)
 
