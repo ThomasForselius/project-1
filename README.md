@@ -202,7 +202,7 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 * Sign up page; 
     There will be a register page where you sign up and apply to comepete in one of these games. 
     Anybody can register, and as soon as you have registered, you can create your own game of events. 
-    * At the moment this is just a mockup since the I don't know the required tech
+    * At the moment this is just a mockup since the I don't have the required knowledge
     >_Required tech for full funcitonality: Javascript and database knowledge_
 * Log in as admin to CRUD(create, read, update, delete) an event and edit scores
     >_Required tech for full funcitonality: Javascript and database knowledge_
