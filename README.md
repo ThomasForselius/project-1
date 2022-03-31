@@ -54,7 +54,30 @@ There are only two fonts used, to keep it simple and clean.
 
 ## Color Scheme
 
+The main idea behind the whole concept is keeping it simple. Therefor I chose black and white with some subtle hints of color. 
 
+  * White text: 
+    - Navigation
+    - Header text
+    - Text in sign up form
+    - Call to action button on first page
+
+    The reason I chose white text color for these is because of the dark background on the webpage, so the white makes for great contrast
+
+  * Black text: 
+    - Header on main text container
+    - Main information text
+
+    The reason I chose black text color for these is because of the white background for the main information, so the black makes for great contrast
+
+  * Other color features: 
+    - Fading in dark background on the call to action button on the first page. 
+    The first reason for this is to make a simple but intresting design feature to keep the user intrested and get a slightly 'alive' feel of the page. 
+    The second reason is that I wanted to try something new that I haven't tried, and I fel that this effect would suit the page perfectly due to it's clean nature
+    - Fading in red outline of input text areas on sign up page
+    The first reason I chose this is to draw attention to the current input text box 
+    The second reason is I like to play around with effects and experiment with new ideas I haven't tried before
+    _To be honest, this is probably the strongest reason haha_
 
 # Features
 
