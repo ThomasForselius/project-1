@@ -7,8 +7,8 @@ an original web project from Thomas Forselius, studying font-end webdevelopement
 
 >1. [What is FriendFeud?](#what-is-it)
 >2. [UX Design and wireframe mockup](#ux-design)
-  > - [Typography](#typography)
-  > - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Color Scheme](#color-scheme)
 >3. [Existing Features](#features)
 >4. [Future Features](#future-features)
 >5. [Technologies](#technologies)
@@ -213,7 +213,28 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
 # Technologies
 
 
-
+* Figma
+  * Figma is a free web software for drawing design mockups easily. I used that as a visual kind of brainstorming when drawing up the wireframe
+* HTML
+  * This is the markup language that makes up the structure of the webpage
+* CSS
+  * This is the styling languange that gives the webpage it's visual design
+* Google Fonts
+  * There are two fonts imported from Google Fonts used on the whole page: 
+    * Italiana
+    * Manrope
+* VS Code
+  * the IDE (Integrated developer environment) that is used to code everything, commit and push to github with the git method
+* Google Chrome
+  * Web browser for viewing the webpage
+* Google Chrome developer tools
+  * Used for inspecting and bug testing the webpage and responsive design
+* Git verison control via GitHub
+  * Git is the version control software used to commit and push code to the GitHub repository 
+* GitHub
+  * this is where the source code and images is stored online - also called a repository.
+    The live page uses the main branch in the Github repository. 
+    _All coming updates will each be using a separate branch for a function, to ensure easy updating and version control_
 
 
 # Testing 
