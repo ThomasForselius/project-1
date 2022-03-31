@@ -40,6 +40,21 @@ a {
 
 }
 
+.footer{
+    width: 100vw;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(7px); 
+    background-blend-mode: hue;
+    position: fixed; /* Makes the mobile menu sticky */
+    z-index: 10; /* Positions menu above content */
+}
+
+.footer > i{
+    margin: 10px;
+}
 /* Navigation styling */
 
 .nav-container {
@@ -78,7 +93,7 @@ a {
 
 .hero-h1 {
     letter-spacing: -3px;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .hero-h2{
@@ -150,7 +165,7 @@ hr {
     border-radius: 4px;
     padding: 5px;
     width: 200px;
-    margin: 10px 0;
+    margin: 0;
     text-align: center;
 }
 
@@ -218,7 +233,7 @@ hr {
     }
 
     .hero-h1{
-        font-size: 10vw;
+        font-size: 8vw;
         text-align: center;
     }
 
@@ -335,11 +350,28 @@ hr {
     }
 
     .register-container{ 
-        width: 70vw;
+        width: 100vw;
+        min-width: 200px;
+        margin: 100px auto;
+        border: border-box;
+        border: none;
+        border-radius: 0;
+    }
+
+    .input{
+        width: 100px;
+    }
+
+    #submit{
+        width: 110px;
     }
 
     .head {
         font-size: 1.3em;
         text-decoration: underline;
+    }
+
+    .footer{
+        width: 100%;
     }
 }

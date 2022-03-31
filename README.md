@@ -239,11 +239,19 @@ The main idea behind the whole concept is keeping it simple. Therefor I chose bl
   * this is where the source code and images is stored online - also called a repository.
     The live page uses the main branch in the Github repository. 
     >_All coming updates will each be using a separate branch for a function, to ensure easy updating and version control_
-* Testing:
-  * W3C HTML Validator
-  * W3C Jigsaw CSS validator
-  * Chrome Dev tools Lighthouse Accessibility validator
 
+* Extra styling features
+  * Drop down menu on mobile devices is a nice feature that uses pure css to accomplish a drop down menu
+  * The background filter of the drop down menu is a blurry background effect - css
+  * Fadein background color on Join-button - css
+  * Fadein red input box border - css
+
+
+  So, why did I want these extra functions and design elements?
+
+  +10%. This is my mindset in most occasions when producing something. 
+  If I always give 10% extra, this is a way to push myself and the quality of the service or goods I produce.
+  
 # Testing 
 
 The whole building of a website is an ongoing test and coarse debugging process, which is very nice, since you get virtually immediate feedback when working with the visual part. 
@@ -289,6 +297,8 @@ My testing procedure is conducted on the live Github repository using the follow
 Known bugs: 
   * Drop down menu doesn't close on mobile screens when using Safari
   * www.kompiskampen.se is bought, but not yet linked to the github page
+  * The register form doesn't send anything due to the lack of backend functionality - this is an upcoming feature
+  * Footer icons are not linked
 
 ## Deployment
 
