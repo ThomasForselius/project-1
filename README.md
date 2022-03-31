@@ -261,13 +261,18 @@ My testing procedure is conducted on the live Github repository using the follow
   * Each link is tested on both browsers against all separate links on the page. 
     i.e.(home -> events; events -> results; results -> what is it? etc etc.)
     > No broken links found
-  * Responsive sizing tested with Chrome Dev tools Inspector
+  * Responsive design tested automatically with http://ami.responsivedesign.is
+  * Responsive sizing tested manually with Chrome Dev tools Inspector
     * Desktop version on screen size larger than 850px 
     * Tablet version on screen size between 440px - 850px
     * Mobile version on screen size between 220px - 440px
       * No further testing required on smaller screen sizes since no current devices use such small resolutions. 
-        Well; that would be a smart watch, but that's just madness, if it's even possible. 
-    * Responsive design also tested with http://ami.responsivedesign.is
+        _Well; that would be a smart watch, but that's just madness, if it's even possible._
+    
+
+* Last series of checks
+  * Go through HTML code and clear commented code, clear double empty lines so that no more than one empty line in a row is found. 
+  * Check that all images appear in both the webpage and the readme.md file
 
 ### Validator Testing 
 
@@ -292,6 +297,9 @@ Known bugs:
   * From the source section drop-down menu, select the Master Branch
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+* Once the main branch has been deployed I commit and push from VS Code to the Github repo and main branch. 
+
+
 The live github link can be found here - https://thomasforselius.github.io/project-1/
 Also, the following domains have been bought: 
   * www.frienfeud.se (working domain name)
@@ -299,7 +307,6 @@ Also, the following domains have been bought:
 
 
 ## Credits 
-
 
 * Credit for pop-down menu when on mobile device goes to https://isabelcastillo.com/pure-css-mobile-toggle-menu
 
