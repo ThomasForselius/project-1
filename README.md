@@ -292,7 +292,8 @@ Known bugs:
 
 ## Deployment
 
-* The site was deployed to GitHub pages through VS Code commit and push commands. The steps to deploy are as follows: 
+* The site was deployed to GitHub following these steps: 
+
   * In the GitHub repository, navigate to the Settings tab 
   * From the source section drop-down menu, select the Master Branch
   * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
@@ -309,6 +310,7 @@ Also, the following domains have been bought:
 ## Credits 
 
 * Credit for pop-down menu when on mobile device goes to https://isabelcastillo.com/pure-css-mobile-toggle-menu
+* Big shout-out to Monster Energy for keeping me awake during the dark hours
 
 
 ## Media
@@ -320,7 +322,3 @@ https://pixabay.com/photos/people-friends-together-happy-kid-4050698/
 ### Content 
 
 - The readme file was copied from CodeInstitute's template for the first project in their 5p front-end dev course
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- CSS validation was done by using the following website: 
-- HTML validation was done by using the following website: 
-
