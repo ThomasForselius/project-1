@@ -325,7 +325,7 @@ Known bugs:
 
 The live github link can be found here - https://thomasforselius.github.io/project-1/
 Also, the following domains have been bought: 
-  * www.frienfeud.se (working domain name)
+  * www.friendfeud.se (working domain name)
   * www.kompiskampen.se (not working at the moment)
 
 
